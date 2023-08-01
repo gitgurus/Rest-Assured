@@ -1,0 +1,6 @@
+Class : Class is a template used to create objects and to define object data types and methods.
+Object : A Java object is a member (also called an instance) of a Java class. Each object has an identity,
+        a behavior and a state. The state of an object is stored in fields (variables),
+        while methods (functions) display the object's behavior.
+
+OOPS: Inheritance, Polymorphism, Abstraction, and Encapsulation.

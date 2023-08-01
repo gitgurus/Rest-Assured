@@ -1,0 +1,35 @@
+* Collections is a framework provided by Java
+* This framework provides many interfaces and their implemented classes in order to store group of Objects in a
+  single entity
+ * We have Collections class inside Collections framework
+
+
+Vectors:
+ * Vector will increase its size by 100% of its size
+ * Default capacity of Vector is 10
+ * What is the initial capacity of vector 10
+ * Does it allows duplicate elements : Yes
+ * Does it allow null values: Yes
+ * Does it maintain insertion order: Yes
+ * Does it maintain sorted order : No
+ * Does it offer random access of elements : Yes
+ * Is vector synchronized : Yes (It does not allow multi threading)
+ * What is it good at? When we have multiple thread implementation and When data is increased exponentially.
+
+
+ Lists:
+ * Array list will increase its size by 50% of its size
+ * Vector will increase its size by 100% of its size
+    * Default capacity of List is 0
+    * What is the initial capacity of List 10
+    * Does it allows duplicate elements : Yes
+    * Does it allow null values: Yes
+    * Does it maintain insertion order: Yes
+    * Does it maintain sorted order : No
+    * Does it offer random access of elements : Yes
+    * Is vector synchronized : No (But by using Collections class we can synchronize the list)
+    * What is it good at? When data is not increased exponentially.
+
+
+
+
