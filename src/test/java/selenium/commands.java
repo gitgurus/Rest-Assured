@@ -71,7 +71,7 @@ public class commands {
          Iterator<String> i1 = s1.iterator();
          while (i1.hasNext()) {
           String ChildWindow = i1.next();
-          if (!MainWindow.equalsIgnoreCase(ChildWindow)) {
+          if (!mainWindowHandle.equalsIgnoreCase(ChildWindow)) {
               driver.switchTo().window(ChildWindow);
               driver.close();
               System.out.println("Child window closed");
